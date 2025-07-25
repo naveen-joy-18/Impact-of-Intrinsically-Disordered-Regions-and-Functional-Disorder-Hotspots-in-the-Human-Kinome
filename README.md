@@ -1,0 +1,2 @@
+# Impact-of-Intrinsically-Disordered-Regions-and-Functional-Disorder-Hotspots-in-the-Human-Kinome
+Human kinase-focused IDR prediction framework using an LSTM model . It maps IDRs across the human kinome, classifies them by length, and analyzes their conservation and regulatory role. We identified 1,039 functional hotspots linked to signaling, phosphorylation, and drug targeting.          Ask ChatGPT

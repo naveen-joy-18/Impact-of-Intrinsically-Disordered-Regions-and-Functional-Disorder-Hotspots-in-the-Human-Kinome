@@ -1,5 +1,7 @@
-# Impact-of-Intrinsically-Disordered-Regions-and-Functional-Disorder-Hotspots-in-the-Human-Kinome
-Human kinase-focused IDR prediction framework using an LSTM model . It maps IDRs across the human kinome, classifies them by length, and analyzes their conservation and regulatory role. We identified 1,039 functional hotspots linked to signaling, phosphorylation, and drug targeting
+# Disorder Prediction Project
+
+This project focuses on predicting protein disorder using machine learning, specifically a Long Short-Term Memory (LSTM) neural network. The project includes data processing, model training, evaluation, and comparison with existing disorder prediction tools.
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -113,5 +115,4 @@ The generated SVG plots provide a comprehensive overview of the model's performa
 -   **ROC Curves (`roc_curve.svg`, `idr_roc_comparison.svg`, `roc_lstm_vs_*.svg`)**: ROC curves are a standard metric for evaluating binary classifiers. The closer the curve is to the top-left corner, and the higher the Area Under the Curve (AUC) value, the better the model's ability to distinguish between disordered and ordered regions. The comparison plots clearly demonstrate how the developed LSTM model performs relative to other established disorder prediction tools, highlighting its strengths and potential improvements. For instance, an AUC of 0.97 for the LSTM model (as seen in `roc_curve.svg`) indicates excellent predictive power.
 
 For a detailed understanding of the model's architecture, specific preprocessing steps, and the exact evaluation metrics, please refer to the `DisorderPredictionCode.ipynb` notebook itself.
-
 
